@@ -3,6 +3,7 @@ import lombok.Data;
 @Data
 public class Player {
 
+
     private long id;
     private String name;
     private int score;
@@ -14,5 +15,10 @@ public class Player {
 
     public void increseScore() {
         this.score +=1;
+    }
+
+    public int chancesReversed(){
+
+        return chances -7;
     }
 }

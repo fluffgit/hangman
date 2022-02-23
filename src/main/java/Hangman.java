@@ -47,6 +47,7 @@ public class Hangman {
                 System.out.println(hashedWord);
             }
 
+            PrintGallow.printGallow(player.chancesReversed());
             letters.add(c);
             System.out.println(letters);
 
