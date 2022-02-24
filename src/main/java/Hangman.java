@@ -52,13 +52,14 @@ public class Hangman {
             System.out.println(letters);
 
             if(player.getChances()==0){
-                System.out.printf("Przegrana! %s nie odgadł hasła, ilość punktów %d, pozostałe szane %d",player.getName(),player.getScore(), player.getChances());
+                System.out.printf("Przegrana! %s nie odgadł hasła, ilość punktów %d, pozostałe szanse %d\n",player.getName(),player.getScore(), player.getChances());
                 runGame = false;
+                System.out.printf("Słowo do odgadnięcia to: %s", haslo);
             }
 
             if(!wordProccessor.check(hashedWord.toCharArray(),'#')){
                 player.increseScore();
-                System.out.printf("Wygrana! %s odgadł hasło, ilość punktów %d, pozostałe szane %d",player.getName(),player.getScore(), player.getChances());
+                System.out.printf("Wygrana! %s odgadł hasło, ilość punktów %d, pozostałe szanse %d",player.getName(),player.getScore(), player.getChances());
                 runGame = false;
             }
         }
