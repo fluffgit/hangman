@@ -1,3 +1,5 @@
+package Hangman;
+
 import lombok.Data;
 
 @Data
@@ -18,7 +20,6 @@ public class Player {
     }
 
     public int chancesReversed(){
-
-        return chances -7;
+       return this.chances -7;
     }
 }

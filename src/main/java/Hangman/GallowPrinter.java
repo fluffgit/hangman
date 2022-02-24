@@ -1,11 +1,13 @@
-public class PrintGallow {
+package Hangman;
+
+public class GallowPrinter {
 
     public static void printGallow(int i){
 
         switch (i){
             case 0:
-                System.out.printf("Player 1: \n");
-                System.out.println("" +
+
+                System.out.println("\n" +
                         "   _____________    \n" +
                         "  |  ___________|   \n" +
                         "  | |               \n" +
@@ -22,7 +24,7 @@ public class PrintGallow {
 
                 break;
             case -1:
-                System.out.printf("Player 1: \n");
+
                 System.out.println("" +
                         "   _____________    \n" +
                         "  |  ___________|   \n" +
@@ -39,7 +41,7 @@ public class PrintGallow {
                 System.out.println();
                 break;
             case -2:
-                System.out.printf("Player 1: \n");
+
                 System.out.println("" +
                         "   _____________    \n" +
                         "  |  ___________|   \n" +
@@ -56,7 +58,7 @@ public class PrintGallow {
                 System.out.println();
                 break;
             case -3:
-                System.out.printf("Player 1: \n");
+
                 System.out.println("" +
                         "   _____________    \n" +
                         "  |  ___________|   \n" +
@@ -73,7 +75,7 @@ public class PrintGallow {
                 System.out.println();
                 break;
             case -4:
-                System.out.printf("Player 1: \n");
+
                 System.out.println("" +
                         "   _____________    \n" +
                         "  |  ___________|   \n" +
@@ -91,7 +93,7 @@ public class PrintGallow {
                 break;
 
             case -5:
-                System.out.printf("Player 1: \n");
+
                 System.out.println("" +
                         "   _____________    \n" +
                         "  |  ___________|   \n" +
@@ -108,7 +110,7 @@ public class PrintGallow {
                 System.out.println();
                 break;
             case -6:
-                System.out.printf("Player 1: \n");
+
                 System.out.println("" +
                         "   _____________    \n" +
                         "  |  ___________|   \n" +
@@ -125,7 +127,7 @@ public class PrintGallow {
                 System.out.println();
                 break;
             case -7:
-                System.out.printf("Player 1: \n");
+
                 System.out.println("" +
                         "   _____________    \n" +
                         "  |  ___________|   \n" +

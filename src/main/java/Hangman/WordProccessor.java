@@ -1,3 +1,5 @@
+package Hangman;
+
 import lombok.Data;
 
 @Data
@@ -8,7 +10,7 @@ public class WordProccessor {
 
     public String generateWord() {
 
-        return "ananasowy";
+        return "test";
     }
 
     public char[] makeCharArray(String word) {
